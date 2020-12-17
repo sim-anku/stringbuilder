@@ -1,0 +1,13 @@
+import java.util.*;
+class stringbuilder
+{
+    public void main()
+    {
+        StringBuilder sb=new StringBuilder("New Zealand");
+        System.out.println("length="+sb.length());
+        System.out.println("capacity="+sb.capacity());
+        sb.setLength(6);
+        System.out.println("set new length:"+sb.length());
+        System.out.println("new sequence:"+sb);
+    }
+}    
